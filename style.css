@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 240px;
+    display: flex;
+
+}
+
+.pic {
+    height: 70vh;
+    width: 30vw;
+
+}
+
+.about {
+    padding: 10px 20px;
+}
+
+.about h1 {
+    margin: -20px;
+    font-size: 4rem;
+}
+
+.about p {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.text li {
+    list-style: none;
+    padding: 15px 1px;
+    margin: 7px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.text li:hover {
+    opacity: 0.7;
+}
+
+.text li a {
+    text-decoration: none;
+    color: aliceblue;
+padding: 13px 178px;
+
+
+}
+
+.footer {
+    display: flex;
+    float: left;
+}
+
+.image {
+    cursor: pointer;
+}
+
+.image ul {
+    display: flex;
+}
+
+.image ul li {
+    list-style: none;
+}
+
+.image ul li a {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 20px 55px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* styling for about section */
+.image2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 0px 15px;
+}
+
+.body {
+    background-image: url(about.jpg);
+    background-size: cover;
+    color: aliceblue;
+    margin: auto;
+
+}
+
+.aboutinfo {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 50px 10px;
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.datasheet {
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+.datasheet p {
+    font-size: 2rem;
+}
+
+.datasheet h1 {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+
+.read a {
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.dsg {
+    margin: 50px 0px 0px 0px;
+}
+
+.cms {
+    margin: 0px 0px 30px 0px;
+    color: rgb(0, 212, 254);
+}
+
+.read {
+    padding: 15px 50px;
+    cursor: pointer;
+    background-color: aqua;
+
+    border-radius: 50px;
+    font-size: 2rem;
+}
+
+.read:hover {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.read a:hover {
+
+    color: aqua;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+@media only screen and (max-width:800px){
+body{
+    flex-wrap: wrap-reverse;
+    margin: 0px;
+}
+.pic{
+    width: 100%;
+    height: 100vh;
+    
+}
+.container{
+    margin: 10px;
+    font-size: 30px;
+}
+.about h1 {
+    
+    font-size: 30px;
+}
+.text li a {
+    
+    padding: 0px 60px;
+
+}
+
+.text li  {
+    
+    padding: 3px 0px;
+
+}
+.fa {
+    margin-right: 15px;
+    align-items: center;
+    padding: 10px 32px;
+    /* border: 2px solid black; */
+    font-size: 30px;
+    width: 0px;
+    /* margin-left: 15px; */
+}
+.about p {
+    padding-top: 40px;
+   
+}
+.about  {
+    margin-top: 20px;
+   
+}
+.aboutinfo{
+    margin: auto;
+}
+.datasheet {
+    padding: 35px;
+}
+
+.datasheet h1{
+    font-size: 1.9rem;
+}
+.datasheet p {
+    font-size: 1.4rem;
+}
+.dsg{
+    font-size: 1.4rem;
+}
+.read {
+    padding: 15px 50px;
+    cursor: pointer;
+    background-color: aqua;
+
+    border-radius: 50px;
+    font-size: 1.4rem;
+}
+.logo{
+    margin: 0px 25px 0px 0px;
+}
+}
